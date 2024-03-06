@@ -20,3 +20,7 @@ if (isEvening){
     h2.textContent = "Good Evening"
 }
 
+ // save message in a local storage
+ 
+const message = "We've Been Trying To Reach You About Your Car's Extended Warranty"
+localStorage.setItem("It's a secret to everybody.", JSON.stringify(message))
